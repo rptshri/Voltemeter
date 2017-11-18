@@ -31,6 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:voltmeter-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -762,21 +763,9 @@ Wire Wire Line
 Wire Wire Line
 	6950 3650 4650 3650
 Wire Wire Line
-	6750 3550 6750 4350
+	4650 3350 6650 3350
 Wire Wire Line
-	6750 3550 4650 3550
-Wire Wire Line
-	6650 3450 6650 4350
-Wire Wire Line
-	6650 3450 4650 3450
-Wire Wire Line
-	6150 3350 6150 4350
-Wire Wire Line
-	6150 3350 4650 3350
-Wire Wire Line
-	4650 3250 6250 3250
-Wire Wire Line
-	6250 3250 6250 4350
+	4650 3250 6750 3250
 Wire Wire Line
 	7150 4350 7150 4250
 Wire Wire Line
@@ -1088,4 +1077,18 @@ Wire Wire Line
 Wire Wire Line
 	6650 5250 6550 5250
 Connection ~ 6550 5250
+Wire Wire Line
+	6750 3250 6750 4350
+Wire Wire Line
+	6650 3350 6650 4350
+Wire Wire Line
+	6150 3450 6150 4350
+Wire Wire Line
+	6150 3450 4650 3450
+Wire Wire Line
+	6250 3550 6250 4350
+Wire Wire Line
+	6250 3550 4650 3550
+Text Notes 850  5400 0    197  ~ 0
+PUT a integrated 4 digit display in this to avoid routing gimmicks\n
 $EndSCHEMATC

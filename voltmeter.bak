@@ -31,6 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:voltmeter-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -762,21 +763,9 @@ Wire Wire Line
 Wire Wire Line
 	6950 3650 4650 3650
 Wire Wire Line
-	6750 3550 6750 4350
+	4650 3350 6650 3350
 Wire Wire Line
-	6750 3550 4650 3550
-Wire Wire Line
-	6650 3450 6650 4350
-Wire Wire Line
-	6650 3450 4650 3450
-Wire Wire Line
-	6150 3350 6150 4350
-Wire Wire Line
-	6150 3350 4650 3350
-Wire Wire Line
-	4650 3250 6250 3250
-Wire Wire Line
-	6250 3250 6250 4350
+	4650 3250 6750 3250
 Wire Wire Line
 	7150 4350 7150 4250
 Wire Wire Line
@@ -1050,10 +1039,6 @@ F 3 "" H 1600 3200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 3200 1600 3100
-NoConn ~ 9650 5150
-NoConn ~ 8650 5150
-NoConn ~ 7650 5150
-NoConn ~ 6650 5150
 $Comp
 L PWR_FLAG #FLG023
 U 1 1 5A11DFFF
@@ -1072,4 +1057,36 @@ Wire Wire Line
 Wire Wire Line
 	1200 1100 1200 1050
 Connection ~ 850  1250
+Wire Wire Line
+	9650 5150 9650 5250
+Wire Wire Line
+	9650 5250 9550 5250
+Connection ~ 9550 5250
+Wire Wire Line
+	8650 5150 8650 5250
+Wire Wire Line
+	8650 5250 8550 5250
+Connection ~ 8550 5250
+Wire Wire Line
+	7650 5150 7650 5250
+Wire Wire Line
+	7650 5250 7550 5250
+Connection ~ 7550 5250
+Wire Wire Line
+	6650 5150 6650 5250
+Wire Wire Line
+	6650 5250 6550 5250
+Connection ~ 6550 5250
+Wire Wire Line
+	6750 3250 6750 4350
+Wire Wire Line
+	6650 3350 6650 4350
+Wire Wire Line
+	6150 3450 6150 4350
+Wire Wire Line
+	6150 3450 4650 3450
+Wire Wire Line
+	6250 3550 6250 4350
+Wire Wire Line
+	6250 3550 4650 3550
 $EndSCHEMATC
