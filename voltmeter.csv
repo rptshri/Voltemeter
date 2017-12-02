@@ -1,0 +1,12 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"U3";"CA56-12EWA";1;"CA56-12EWA";;;
+2;"U2";"TQFP-32_7x7mm_Pitch0.8mm";1;"ATMEGA328P-AU";;;
+3;"C1,C3,C4,C5,C2";"C_0805_HandSoldering";5;"C";;;
+4;"CON1";"Pin_Header_Straight_2x03_Pitch2.54mm";1;"AVR-ISP-6";;;
+5;"J1,J2";"WAGO_734_2pin_Straight_RuggedPads";2;"Conn_01x02";;;
+6;"J3,J4,J5,J6,J7,J8,J9";"Pin_Header_Straight_1x01_Pitch2.54mm";7;"Conn_01x01";;;
+7;"R1,R5,R6,R2,R4,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16";"R_0805_HandSoldering";15;"R";;;
+8;"R3";"R_0805_HandSoldering";1;"1kR";;;
+9;"U1";"SOT-223-3_TabPin2";1;"AZ1117-3.3";;;
+10;"Y1";"Crystal_HC18-U_Vertical";1;"Crystal";;;
+11;"Q1,Q2,Q3,Q4";"SOT-23";4;"2N7002";;;
